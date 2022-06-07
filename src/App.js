@@ -1,9 +1,11 @@
 import logo from './logo.svg';
+import { Clock } from './component/clock';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <Clock date={new Date()}></Clock>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
